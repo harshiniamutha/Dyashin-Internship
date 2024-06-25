@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Doctor Appointment Form</h1>
+        <form>
+            
+                <label for="appointment-date">Appointment Date</label>
+                <input type="date" id="appointment-date" name="appointment-date">
+                <label for="appointment-time">Time</label>
+                <input type="time" id="appointment-time" name="appointment-time">
+           
+
+            <div class="form-row">
+                <label for="first-name">Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First">
+                <input type="text" id="last-name" name="last-name" placeholder="Last">
+            </div>
+
+            <div class="form-row">
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div class="form-row">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="####">
+            </div>
+
+            <div class="form-row">
+                <label for="address">Address</label>
+                <input type="text" id="city" name="city" placeholder="city">
+                <input type="text" id="state" name="state" placeholder="state">
+            </div>
+
+            <div class="form-row">
+                <label for="query">Your Query</label>
+                <textarea id="query" name="query"></textarea>
+            </div>
+
+           
+                <label for="appointment-type">Appointment Type</label>
+               
+                    <input type="checkbox" id="cervix-checkup" name="appointment-type" value="cervix-checkup">
+                    <label for="cervix-checkup">Cervix checkup</label><br>
+                    <input type="checkbox" id="heart-checkup" name="appointment-type" value="heart-checkup">
+                    <label for="heart-checkup">Heart checkup</label><br>
+                    <input type="checkbox" id="eye-checkup" name="appointment-type" value="eye-checkup">
+                    <label for="eye-checkup">Eye check-up</label><br>
+                    <input type="checkbox" id="hearing-test" name="appointment-type" value="hearing-test">
+                    <label for="hearing-test">Hearing Test</label>
+                
+        
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>

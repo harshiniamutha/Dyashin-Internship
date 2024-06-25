@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+thead th {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    height: 50px;
+}
+
+tbody td[rowspan] {
+    vertical-align: middle;
+}
+
+.lunch-cell {
+    border: 1px solid #000;
+    font-weight: bold;
+    font-size: 20px;
+  
+    text-align: center;
+}
